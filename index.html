@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>button</title>
+
+</head>
+<body>
+
+	
+	<button type="button" onclick="my1()" id="btn" style="height: 48px; width: 96px; font-size: 24px;">0</button>
+	
+
+	<script>
+		function my1() {
+			// body...
+			var x= document.getElementById("btn").innerHTML;
+			x++;
+			document.getElementById("btn").innerHTML = x;
+		}
+	
+	</script>
+</body>
+</html>
